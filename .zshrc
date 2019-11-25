@@ -114,3 +114,6 @@ alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
 
 # venv thing
 alias sv='source venv/bin/activate'
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

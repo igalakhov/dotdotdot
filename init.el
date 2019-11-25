@@ -119,6 +119,9 @@
 (require 'py-yapf)
 (add-hook 'python-mode-hook 'py-yapf-enable-on-save)
 
+(require 'nyan-mode)
+(nyan-mode)
+
 ;; (require 'sublimity)
 ;; (require 'sublimity-scroll)
 ;; (sublimity-mode 1)
@@ -137,7 +140,7 @@
     ("cdb4ffdecc682978da78700a461cdc77456c3a6df1c1803ae2dd55c59fa703e3" "c433c87bd4b64b8ba9890e8ed64597ea0f8eb0396f4c9a9e01bd20a04d15d358" "2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" default)))
  '(package-selected-packages
    (quote
-    (## sublimity py-yapf ace-window flycheck format-all requirejs web-mode zenburn-theme solarized-theme projectile material-theme jedi better-defaults))))
+    (nyan-mode ## sublimity py-yapf ace-window flycheck format-all requirejs web-mode zenburn-theme solarized-theme projectile material-theme jedi better-defaults))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

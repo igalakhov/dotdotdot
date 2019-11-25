@@ -1,0 +1,18 @@
+Notes for emacs:
+
+Currently used packages:
+* means the package is not current required/in-use
+
+projectile (project management) (mapped to C-c p)
+jedi (python helper)
+web-mode (web mode) (works with anything web related)
+ace window (easy window switcher) (mapped to M-o)
+web-beautify (web formatter)
+py-yapf (python formatter)
+*sublimity (smooth scroller)
+
+Notes:
+py-yapf requires yapf to be installed with pip
+web-beautify requires js-beautify install with npm
+Currently, web-beautify works with C-c b but py-yapf doesn't)
+sublimity is a bit buggy, probably will uninstall

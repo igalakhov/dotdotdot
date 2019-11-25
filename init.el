@@ -38,7 +38,7 @@
 (setq inhibit-startup-message t)
 (setq initial-major-mode `text-mode)
 (setq initial-scratch-message "Blessed art thou, who hath come to the One True Editor.")
-
+(menu-bar-mode -1)
 
 (require 'projectile)
 (projectile-global-mode +1)

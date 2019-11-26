@@ -1,0 +1,15 @@
+name: smsh
+root: ~/stuyactivities/
+
+windows:
+  - editor:
+      layout: even-vertical
+      panes:
+        - emacs
+  - terminal:
+      layout: even-horizontal
+      panes:
+        - venv:
+          - sleep 0.5 && clear && sv
+        - git:
+          - sleep 0.5 && clear && git status

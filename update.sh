@@ -1,4 +1,3 @@
-cp ~/.emacs.d/init.el init.el
-cp ~/.emacs.d/notes.txt notes.txt
-cp ~/.zshrc .zshrc
-cp ~/.tmux.conf .tmux.conf
+cp dotfiles/init.el ~/.emacs.d/init.el
+cp dotfiles/zshrc ~/.zshrc
+cp dotfiles/tmux.conf ~/.tmux.conf

@@ -11,6 +11,7 @@ web-beautify (web formatter)
 py-yapf (python formatter)
 *sublimity (smooth scroller)
 nyan-mode (nyan mode)
+yaml-mode (yaml mode)
 
 Notes:
 py-yapf requires yapf to be installed with pip
@@ -18,3 +19,4 @@ web-beautify requires js-beautify install with npm
 Currently, web-beautify works with C-c b but py-yapf doesn't)
 sublimity is a bit buggy, probably will uninstall
 Nyan mode doesn't use the image, so it's not annoying
+Yaml mode binds enter key to newline and indent

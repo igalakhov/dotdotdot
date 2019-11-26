@@ -117,3 +117,5 @@ alias sv='source venv/bin/activate'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# load tmuxinator
+source ~/.bin/tmuxinator.zsh

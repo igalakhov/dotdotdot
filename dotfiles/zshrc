@@ -118,7 +118,7 @@ alias sv='source venv/bin/activate'
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # one true editor
-export EDITOR='eamcs'
+export EDITOR='emacs'
 
 # auri
 alias auri="tmux attach -t auri || tmux new -s auri"

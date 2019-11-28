@@ -1,5 +1,7 @@
-name: smsh
-root: ~/stuyactivities/
+# simple
+
+name: simple
+root: ~/<%= @args[0] %>
 
 windows:
   - editor:

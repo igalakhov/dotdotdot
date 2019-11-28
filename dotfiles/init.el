@@ -129,6 +129,10 @@
 	  '(lambda ()
 	     (define-key yaml-mode-map "\C-m" 'newline-and-indent)))
 
+(require 'magit)
+(global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-x M-g") 'magit-dispatch)
+
 ;; ===================================
 ;; User-Defined init.el ends here
 ;; ===================================

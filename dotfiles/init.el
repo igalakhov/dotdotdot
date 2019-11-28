@@ -133,6 +133,9 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch)
 
+(require 'doom-themes)
+(load-theme 'doom-solarized-dark t)
+
 ;; ===================================
 ;; User-Defined init.el ends here
 ;; ===================================

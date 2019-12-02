@@ -61,6 +61,7 @@
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
 (setq web-mode-enable-auto-closing t)
+(setq web-mode-enable-auto-quoting t)
 (setq web-mode-enable-auto-pairing t)
 
 (require 'ace-window)
@@ -135,6 +136,7 @@
 
 (require 'doom-themes)
 (load-theme 'doom-solarized-dark t)
+(setq doom-solarized-dark-brighter-comments t)
 
 ;; ===================================
 ;; User-Defined init.el ends here

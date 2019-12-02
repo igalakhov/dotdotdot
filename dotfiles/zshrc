@@ -128,3 +128,8 @@ alias tx="tmuxinator"
 
 # colors
 export TERM=xterm-256color
+
+# spotify
+alias this="echo This is so sad; sleep 0.5; echo Alexa; sleep 0.5; echo Play despacito; spotify play despacito"
+alias play="spotify play"
+alias pause="spotify pause"

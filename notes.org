@@ -1,0 +1,43 @@
+#+DESCRIPTION: This is a document describing my emacs configuration
+
+* Notes on packages
+** projectile
+Project manager for emacs. Bound to C-c p.
+** jedi
+Just a nice helper library for python.
+** web-mode
+Web mode set to work on basically every file related to the web.
+Auto closing, auto quoting, and quto paring is enabled.
+** ace-window
+Easy window switcher
+Bound to M-o
+** web-beautify
+Auto formatter for web files.
+Bound to C-c b but also fires automatically on web file save.
+** py-yapf
+Python formatter.
+Works on save.
+*** TODO Probably should bind this to work with C-c b.
+** nyan-mode
+Nyan mode. Makes a nice thing at the bottom.
+** yaml-mode
+Yaml mode for editing yml files.
+Newline and indent works automatically.
+** magit
+Magit git interaction library.
+I currently don't use it too often because I don't work
+with complex git a lot.
+** doom-themes
+Nice themes for emacs.
+Not all of them work in terminal emacs.
+I use doom-solarized-dark because it's the same layout as my terminal.
+Comments are also made brighter.
+** js2-mode
+Amazing mode for javascript.
+Allows for refactoring.
+** org
+Org mode!
+TODO sequences are TODO, IN-PROGRESS, WAITING, and DONE
+C-c l, C-c a, C-c c are bound to various parts of org-mode
+Auto indent is one because it looks nicer.
+

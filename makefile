@@ -1,0 +1,2 @@
+update:
+	source update.sh
